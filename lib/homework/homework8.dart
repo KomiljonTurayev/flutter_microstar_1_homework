@@ -1,35 +1,35 @@
 import 'package:flutter/material.dart';
 
-class Homework2 extends StatefulWidget {
+class Homework8 extends StatefulWidget {
   @override
-  _Homework2State createState() => _Homework2State();
+  _Homework8State createState() => _Homework8State();
 }
 
-class _Homework2State extends State<Homework2> {
+class _Homework8State extends State<Homework8> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Homework'),
-      // ),
+      appBar: AppBar(
+        title: Text('Homework'),
+      ),
       body: Container(
         child: Column(
           children: [
             Row(
               children: [
                 Expanded(
-                  flex: 1,
                   child: Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
                     height: MediaQuery.of(context).size.height * 0.25,
                     color: Colors.blue,
                     child: Text('1'),
                   ),
                 ),
                 Expanded(
-                  flex: 1,
                   child: Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
                     height: MediaQuery.of(context).size.height * 0.25,
-                    color: Colors.green,
+                    color: Colors.red,
                     child: Text('2'),
                   ),
                 ),
@@ -38,35 +38,30 @@ class _Homework2State extends State<Homework2> {
             Row(
               children: [
                 Expanded(
-                  flex: 0,
                   child: Container(
-                    height: MediaQuery.of(context).size.height * 0.5,
-                    width: MediaQuery.of(context).size.width,
+                    width: MediaQuery.of(context).size.width * 0.5,
+                    height: MediaQuery.of(context).size.height * 0.25,
                     color: Colors.yellow,
-                    child: const Text('3'),
+                    child: Text('3'),
+                  ),
+                ),
+                Expanded(
+                  child: Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
+                    height: MediaQuery.of(context).size.height * 0.25,
+                    child: Text('4'),
+                    color: Colors.grey,
                   ),
                 ),
               ],
             ),
-            Row(
-              children: [
-                Expanded(
-                  flex: 1,
-                  child: Container(
-                    height: MediaQuery.of(context).size.height * 0.25,
-                    color: Colors.grey,
-                    child: Text('5'),
-                  ),
-                ),
-                Expanded(
-                  flex: 1,
-                  child: Container(
-                    height: MediaQuery.of(context).size.height * 0.25,
-                    color: Colors.red.shade200,
-                    child: Text('6'),
-                  ),
-                ),
-              ],
+            Expanded(
+              child: Container(
+                width: MediaQuery.of(context).size.width,
+                height: MediaQuery.of(context).size.height * 0.25,
+                color: Colors.green,
+                child: Text('3'),
+              ),
             ),
           ],
         ),

@@ -18,7 +18,7 @@ class _Homework1State extends State<Homework1> {
             Column(
               children: [
                 Expanded(
-                  flex: 2,
+                  flex: 1,
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.blue,
@@ -30,7 +30,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.green,
-                    child: Text('3'),
+                    child: Text('2'),
                   ),
                 ),
                 Expanded(
@@ -38,7 +38,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.yellow,
-                    child: Text('4'),
+                    child: Text('3'),
                   ),
                 ),
               ],
@@ -50,7 +50,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.grey,
-                    child: Text('1'),
+                    child: Text('4'),
                   ),
                 ),
                 Expanded(
@@ -58,7 +58,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.red.shade200,
-                    child: Text('2'),
+                    child: Text('5'),
                   ),
                 ),
                 Expanded(
@@ -66,7 +66,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.green.shade200,
-                    child: Text('3'),
+                    child: Text('6'),
                   ),
                 ),
                 Expanded(
@@ -74,7 +74,7 @@ class _Homework1State extends State<Homework1> {
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     color: Colors.yellow.shade400,
-                    child: Text('4'),
+                    child: Text('7'),
                   ),
                 ),
               ],
